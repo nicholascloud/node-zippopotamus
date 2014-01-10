@@ -1,0 +1,11 @@
+{
+	"name": "node-zippopotamus",
+	"version": "1.0.0",
+	"description": "simple node interface for http://www.zippopotam.us/",
+	"author": "Nicholas Cloud <ncloud@appendto.com>",
+	"devDependencies": {
+		"chai": "latest",
+		"mocha": "latest",
+		"nock": "latest"
+	}
+}
