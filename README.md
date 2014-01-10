@@ -13,12 +13,12 @@ $ npm install node-zippopotamus
 ```javascript
 var zipp = require('node-zippopotamus');
 
-zipp('us', '55555', function (err, json) {
+zipp('us', '63031', function (err, json) {
   //json is an object
 });
 
 /*defaults to country 'us'*/
-zipp('55555', function (err, json) {
+zipp('63031', function (err, json) {
   //json is an object
 });
 ```
