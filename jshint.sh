@@ -1,3 +1,3 @@
 #!/bin/sh
-jshint ./*.js
-jshint ./test/*.js
+jshint --config=./.jshintrc ./*.js
+jshint --config=./.jshintrc ./test/*.js

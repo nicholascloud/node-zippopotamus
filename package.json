@@ -4,8 +4,11 @@
 	"description": "simple node interface for http://www.zippopotam.us/",
 	"author": "Nicholas Cloud <ncloud@appendto.com>",
 	"devDependencies": {
-		"chai": "latest",
-		"mocha": "latest",
-		"nock": "latest"
+		"chai": "~1.8",
+		"mocha": "~1.17",
+		"nock": "~0.27"
+	},
+	"scripts": {
+		"test": "sh ./test.sh"
 	}
 }
