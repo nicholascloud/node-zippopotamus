@@ -11,7 +11,7 @@ var zippopotamus = module.exports = function (country, zip, cb) {
 		country = DEFAULT_COUNTRY;
 	}
 
-	var url = 'http://www.zippopotam.us/%s/%s'
+	var url = 'http://api.zippopotam.us/%s/%s'
 		.replace('%s', country)
 		.replace('%s', zip);
 
