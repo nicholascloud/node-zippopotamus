@@ -25,7 +25,7 @@ describe('zippopotamus', function () {
 			]
 		};
 
-		remote = nock('http://www.zippopotam.us')
+		remote = nock('http://api.zippopotam.us')
 			.get('/us/55555')
 			.reply(200, mockResponse)
 			.get('/us/66666')
